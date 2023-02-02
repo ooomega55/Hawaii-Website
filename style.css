@@ -1,0 +1,345 @@
+body {
+  background-image: linear-gradient(seagreen, mediumaquamarine, skyblue);
+}
+
+h1 {
+  color: steelblue;
+  font-family: cochin;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p {
+  color: steelblue;
+  font-family: cochin;
+  font-size: 30px;
+}
+
+hr {
+  border-color: midnightblue;
+  border-width: 10px;
+  border: 5px dotted;
+  border-style: inset;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.animate:hover {
+  filter: brightness(120%);
+  width: 500px;
+  height: 280px;
+}
+
+.animate2:hover {
+  animation-name: shake;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 10000s;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.chill {
+  color: blue;
+  font-size: 30px;
+  font-family: cochin;
+  padding: 5px;
+}
+
+.fix {
+  background-size: cover;
+  background-image: url(https://www.jetstar.com/_/media/inspiration-hub/article-images/19oct/hawaii-honolulu-need-to-know/hero_hawaii_honolulu.jpg?rev=cf08627cd0164b12b48d7e2af03abec6&w=1050&rc=1&cw=1050&ch=590&cx=55&cy=0&hash=67AF8851437B4D5433D7F1886992F8120F580B73);
+  background-repeat: no-repeat;
+}
+
+.fixp {
+  background-size: cover;
+  background-image: url(https://www.freeworldmaps.net/united-states/hawaii/hawaii-map.jpg);
+  background-repeat: no-repeat;
+}
+
+.fixf {
+  background-size: cover;
+  background-image: url(https://thumbor.thedailymeal.com/n9tMuwUihNotWt9oZ3VcCmr-Ul4=/870x565/https://www.thedailymeal.com/sites/default/files/2018/12/20/copy/11_Hawaii_istock_0.jpg);
+  background-repeat: no-repeat;
+}
+
+.fixa {
+  background-size: cover;
+  background-image: url(https://wallpaperaccess.com/full/403000.jpg);
+  background-repeat: no-repeat;
+}
+
+.fixc {
+  background-size: cover;
+  background-image: url(https://www.hiltonwaikoloavillage.com/assets/img/video-backgrounds/2020-05-Zoom-Backgrounds-Turtles-in-Lagoon.jpg);
+  background-repeat: no-repeat;
+}
+
+.fixit {
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0nYQ76G1rt9iBvzrJ-pCVrLpZe2y_CRqVTw&usqp=CAU);
+  background-repeat: no-repeat;
+}
+
+.mental {
+  background-size: cover;
+  background-image: url(https://www.hawaiimagazine.com/content/uploads/2020/12/HAWAIIMag-ZOOM-Makapuu.jpg);
+  background-repeat: no-repeat;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.a4:hover {
+  color: #f4bb44;
+  background-color: transparent;
+  text-decoration: none;
+  filter: brightness(100%);
+}
+
+a:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.press {
+  position: relative;
+  display: block;
+  color: maroon;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: tahoma;
+  text-decoration: none;
+  margin: 20px 2px;
+  border: 2px solid blue;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 2s all ease;
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+}
+
+.press::before {
+  background: coral;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 1s ease;
+}
+
+a:active {
+  background-image: linear-gradient(cyan green);
+}
+
+.pos1 {
+  position: relative;
+  left: 155px;
+  top: -60px;
+}
+
+.pos2 {
+  position: relative;
+  left: 310px;
+  top: -120px;
+}
+
+.pos3 {
+  position: relative;
+  left: 465px;
+  top: -180px;
+}
+
+.pos4 {
+  left: 620px;
+  top: -240px;
+}
+
+.pos5 {
+  left: 775px;
+  top: -300px;
+}
+
+.pos6 {
+  left: 930px;
+  top: -360px;
+}
+
+.press:hover::before {
+  width: 100%;
+}
+
+.a4::before {
+  width: 100%;
+  height: 0;
+  transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.a4:hover::before {
+  height: 380%;
+}
+
+.glow {
+  text-shadow: 2px 2px aquamarine;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 {
+  background-image: url("https://d1q0twczwkl2ie.cloudfront.net/wp-content/uploads/2018/08/Screen-Shot-2018-08-24-at-4.01.34-pm.jpg");
+}
+.img1:hover {
+  filter: saturate(7);
+}
+.img2 {
+  background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2022/02/poke-.jpg?quality=82&strip=all");
+}
+.img2:hover {
+  filter: blur(4px);
+}
+.img3 {
+  background-image: url("https://thumbor.thedailymeal.com/n9tMuwUihNotWt9oZ3VcCmr-Ul4=/870x565/https://www.thedailymeal.com/sites/default/files/2018/12/20/copy/11_Hawaii_istock_0.jpg");
+}
+.img3:hover {
+  filter: saturate(7);
+}
+.img4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIU3ZOM1O7s84RYWGlwo-O1nzp4w6o4eBpyg&usqp=CAU");
+}
+.img4:hover {
+  filter: invert(100%);
+}
+.img5 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87cItlGbvRs2l_QVd7aG1q2vuJR4ZwoUVHw&usqp=CAU");
+}
+.img5:hover {
+  filter: saturate(7);
+}
+.img6 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3p6eJY2Bjia6CiFvDB9tM1rSjLx6DlV1jQ&usqp=CAU");
+}
+.img6:hover {
+  filter: saturate(7);
+}
+.img7 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZJ1tq0cXnS96nY-ud_WPohRjlf8JjLn1Nw&usqp=CAU");
+}
+.img7:hover {
+  filter: blur(4px);
+}
+.img8 {
+  background-image: url("https://i.huffpost.com/gen/2651444/thumbs/o-WAIOLA-570.jpg");
+}
+.img8:hover {
+  filter: hue-rotate(180deg);
+}
+
+.position {
+  top: 100px;
+}
+
+.info {
+  color: darkmagenta;
+  font-family: lucida Sans;
+}
+
+.brightness:hover {
+  filter: brightness(130%);
+  transition-duration: 2s;
+}
+
+hr.lineedit {
+  border: 10px solid;
+  color: mediumorchid;
+  border-radius: 5px;
+}
+
+.big {
+  color: darkmagenta;
+  font-family: lucida Sans;
+  font-size: 20px;
+}
+
+.hover:hover {
+  transition-duration: 2s;
+}
+
+.tablefix {
+  margin: 50px;
+  padding: 10px;
+  width: 65%;
+}
+
+.ttc:hover {
+  font-weight: bold;
+}
+
+.color {
+  color: orangered;
+}
